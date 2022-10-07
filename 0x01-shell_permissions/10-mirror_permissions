@@ -1,2 +1,2 @@
 #!/bin/bash
-stat -c "%a" ./olleh > op | chmod op ./hello
+chmod --reference=./olleh ./hello
