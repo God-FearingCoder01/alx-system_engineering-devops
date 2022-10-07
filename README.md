@@ -1,3 +1,4 @@
-#**System Engineering Developments**
+# **System Engineering Developments**
 
-This is a repo about mysystem engineering developments at the **ALX SE** program.
+This is a repo about my system engineering developments at the **ALX SE** program.
+*[SE]:Software Engineering
