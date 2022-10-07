@@ -1,2 +1,2 @@
 #!/bin/bash
-let ollehMode=Stat -c --format "%a" ./olleh | chmod ollehMode ./hello
+stat -c "%a" ./olleh > op | chmod op ./hello
