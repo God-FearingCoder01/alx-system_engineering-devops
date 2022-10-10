@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c 1 | grep [[:alpha:]] | wc -l
+cut -c 1 /etc/ssh/sshd_config | grep [[:alpha:]] | wc -l
