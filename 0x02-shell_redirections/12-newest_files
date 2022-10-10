@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -F | sort -Mr | head
+ls --file-type | sort -Mr | head
