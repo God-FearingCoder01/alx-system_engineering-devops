@@ -1,2 +1,2 @@
 #!/bin/bash
-tr 'N-ZA-Mn-za-m' 'A-Za-z' $WATER $STIR $bestchol | $(((bestchol#WATER) + (bestchol#STIR))) | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+printf "%o\n" $(((5#$(echo $WATER | tr water 01234)) + (5#$(echo $STIR | tr stir. 01234))))
