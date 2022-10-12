@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(((bestchol#WATER) + (bestchol#STIR)))
+tr 'N-ZA-Mn-za-m' 'A-Za-z' $WATER $STIR $bestchol | $(((bestchol#WATER) + (bestchol#STIR))) | tr 'A-Za-z' 'N-ZA-Mn-za-m'
